@@ -5,7 +5,7 @@ def speak_to_grandma(phrase)
     else 
       "NO, NOT SINCE 1938!"
     end
-  else
+  elsif phrase.downcase
     "HUH?! SPEAK UP, SONNY!"
   end
 end
