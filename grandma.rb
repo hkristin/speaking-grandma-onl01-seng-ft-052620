@@ -3,7 +3,7 @@ def speak_to_grandma(phrase)
     if phrase == "I LOVE YOU GRANDMA!"
       "I LOVE YOU TOO PUMPKIN!"
     end
-  elsif phrase == phrase.lowercase
+  elsif phrase == phrase.downcase
     "HUH?! SPEAK UP, SONNY!"
   end
 end
